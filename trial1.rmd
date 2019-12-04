@@ -1,0 +1,19 @@
+---
+title: "Oldest Sites in India"
+author: "preethi"
+date: "12/3/2019"
+output: html_document
+---
+
+```{r setup,message = FALSE, echo =FALSE, include=FALSE}
+library(leaflet)
+library(dplyr)
+```
+```{r map,message = FALSE, echo =FALSE}
+Arch_sites <- data.frame(name=c("Bhimbetka Rock Shelters ~ 10,000 years old","Dholavira ~ 5000 years old", "Lothal ~ 6000 years old"),
+                           lat=c(23.8143419, 23.3731443,22.6220924),
+                           lng=c(77.5340719, 70.4420556192086,72.3848890915784))
+leaflet(data = Arch_sites)%>% addTiles() %>% addMarkers(lat = Arch_sites$lat,lng = Arch_sites$lng, popup = as.character(Arch_sites$name), label = as.character(Arch_sites$name)) 
+
+```
+
