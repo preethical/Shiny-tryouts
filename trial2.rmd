@@ -1,0 +1,36 @@
+---
+title: "Budget Data - Himachal Pradesh"
+author: "preethi"
+date: "1/4/2020"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Week 3 - Developing Data Products - Test 1
+
+- For the third week, the instructions were to create a web page presentation using R Markdown that features a plot created with Plotly.
+- For this assignement, I have created a graph with Plotly depicting distric-wise health care expenditure on the x-axis, number of primary health care centres in the y-axis and population in district as the size of the circles
+
+## District-wise public health expenditure and number of hospitals in Himachal Pradesh
+
+```{r district_data, message=FALSE, warning=FALSE, echo = FALSE, fig.width=14, fig.height=10}
+library(ggplot2)
+library(plotly)
+district_exp <- read.csv("C:/Users/Preethi's Laptop/Documents/R/datascience_coursera_main/HP expenditure/HP-expenditure/HP budet and expenditure data/districtwise_spend.csv", header = TRUE)
+district_exp$district <- district_exp$ï..district
+
+
+plot3 <- ggplot (data = district_exp, 
+                 aes(x = Public_Health_Expenditure,y=Number_PHC, fill = district, size=Population))+
+                  geom_point(alpha = 0.5, shape = 21)+scale_x_continuous(labels = scales::comma)+  
+                  scale_size(range = c(.1, 24), name="Population")+
+                  ggtitle("Figure 1: HP - District-wise public health expenditure") +
+                  theme_bw()+
+                  xlab("District wise healthcare expenditure in Rs") + ylab("Number of Primary Health Care Centres")
+ggplotly (plot3)
+```
+
+## Thank you
