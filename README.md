@@ -1,4 +1,6 @@
-# Shiny-tryouts
-A repository where I try out Shiny 
+# Shiny-tryouts - For Developing Data Products Course
 
-[Trial 2](https://preethical.github.io/Shiny-tryouts/trial2.html)
+A repository where I try out Shiny, Plotly and interactive graphs
+
+[Week 2]()
+[Week 3](https://preethical.github.io/Shiny-tryouts/trial2.html)

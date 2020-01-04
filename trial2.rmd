@@ -9,7 +9,7 @@ output: slidy_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Week 3 - Developing Data Products - Test 1
+## Week 3 - Developing Data Products - Test
 
 - For the third week, the instructions were to create a web page presentation using R Markdown that features a plot created with Plotly.
 - For this assignement, I have created a graph with Plotly depicting distric-wise health care expenditure on the x-axis, number of primary health care centres in the y-axis and population in district as the size of the circles
