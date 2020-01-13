@@ -19,10 +19,8 @@ This is a tiny pitch deck for the web application created by Preethi Govindaraja
 
 The documentation neccesary for this is found in Help_document.rmd
 
-All the other weeks assignments are found [here](https://preethical.github.io/Shiny-tryouts/)
+All the other weeks assignments are found [here](https://preethical.github.io/Shiny-tryouts/) 
 
-## Application link 
-
-- [here](https://preethical.shinyapps.io/Week4_Programming_Assignment/)
+Application link [here](https://preethical.shinyapps.io/Week4_Programming_Assignment/)
 
 ## Thank you for your time
