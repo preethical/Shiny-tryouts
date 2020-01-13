@@ -1,0 +1,28 @@
+---
+title: "Pitch - Application - Week 4"
+author: "preethi govindarajan"
+date: "1/13/2020"
+output: ioslides_presentation
+---
+
+## Shiny Application - Week 4 - Developing Data Products
+
+This is a tiny pitch deck for the web application created by Preethi Govindarajan for the developing data products course
+
+## Slide with Bullets
+
+- The purpose of this application is to observe time related trends in sector-wise budget data in different Indian States
+
+- There are two drop downs for State and Sector 
+
+## Other Documents
+
+The documentation neccesary for this is found in Help_document.rmd
+
+All the other weeks assignments are found [here](https://preethical.github.io/Shiny-tryouts/)
+
+## Application link 
+
+- [here](https://preethical.shinyapps.io/Week4_Programming_Assignment/)
+
+## Thank you for your time

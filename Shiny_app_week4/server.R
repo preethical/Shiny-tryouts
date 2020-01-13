@@ -29,10 +29,8 @@ shinyServer(function(input, output){
             guides(size = FALSE)+
             theme(plot.margin = margin(2,.8,2,.8, "cm"))
         })
-    output$selected_var <- renderText({ 
-        paste("Budget Data for:", input$state, input$sector)
+   
     })
-}
-)
+
 
 
