@@ -1,6 +1,6 @@
 ---
-title: "Pitch - Application - Week 4"
-author: "preethi govindarajan"
+title: "Pitch_Application - Week 4"
+author: "preethi"
 date: "1/13/2020"
 output: ioslides_presentation
 ---
@@ -16,11 +16,11 @@ This is a tiny pitch deck for the web application created by Preethi Govindaraja
 - There are two drop downs for State and Sector 
 
 ## Other Documents
+- The documentation neccesary for this is found in [Help_document.rmd](https://github.com/preethical/Shiny-tryouts)  
 
-The documentation neccesary for this is found in Help_document.rmd
+- The global, server and ui. R files are found [here](https://github.com/preethical/Shiny-tryouts/tree/master/Shiny_app_week4)
+- All the other weeks assignments are found [here](https://preethical.github.io/Shiny-tryouts/)   
 
-All the other weeks assignments are found [here](https://preethical.github.io/Shiny-tryouts/) 
-
-Application link [here](https://preethical.shinyapps.io/Week4_Programming_Assignment/)
+- Application link [here](https://preethical.shinyapps.io/Week4_Programming_Assignment/)  
 
 ## Thank you for your time
